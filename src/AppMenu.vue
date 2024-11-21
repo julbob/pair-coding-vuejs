@@ -14,6 +14,11 @@ const items = ref([
         label: 'Auteur',
         icon: 'pi pi-user',
         command: () => router.push('/authors')
+    },
+    {
+        label: 'Connexion',
+        icon: 'pi pi-fw pi-user',
+        command: () => router.push('/connect')
     }
 ]);
 </script>
